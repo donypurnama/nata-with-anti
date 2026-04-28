@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-    Options +FollowSymLinks
+    # Options +SymLinksIfOwnerMatch
     RewriteEngine On
 
     # Force HTTPS (optional tapi disarankan)
@@ -22,7 +22,7 @@
 </IfModule>
 
 # Disable directory listing
-Options -Indexes
+# Options -Indexes
 
 # Protect sensitive files
 <FilesMatch "\.(env|log|ini|htaccess|lock)$">
