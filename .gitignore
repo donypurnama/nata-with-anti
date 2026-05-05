@@ -1,6 +1,6 @@
 .DS_Store
 .env
 .htaccess.backup
-/build
+#/build
 /storage
 index.php
